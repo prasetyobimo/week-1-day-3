@@ -12,10 +12,6 @@
     box-shadow: 0 2px 10px purple;
 }
 
-.btn {
-    color: black;
-}
-
 .container {
     background: gray;
     display: flex;
