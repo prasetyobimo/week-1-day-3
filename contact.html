@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Day 3</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome untuk icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font Text link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+
+    <!-- link bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- link bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="grafis_fade-removebg-preview.png" style="width: 50px;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav-top" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html" style="color: black;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: black;">Link</a>
+                </li>
+            </ul>
+                <button class="btn" type="submit">
+                    <a href="contact.html" style="text-decoration: none; color: black;">My contact</a>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR END  -->
+
+    <!-- CONTENT -->
+    <section class="contact-section">
+        <h1>GET IN CONTACT</h1>
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your Email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="phone" id="phone" placeholder="Your Phone Number" required>
+
+            <label for="subject">Subject</label>
+            <select id="subject">
+                <option value="">-- Choose a Subject --</option>
+                <option>Project</option>
+                <option>Job Offer</option>
+                <option>Other</option>
+            </select>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" rows="5" placeholder="Type your message here..."></textarea>
+
+            <button type="submit" class="btn-submit">Submit</button>
+        </form>
+    </section>
+    <!-- CONTENT END -->
+</body>
+</html>
